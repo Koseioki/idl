@@ -14,7 +14,9 @@ export function SideNav() {
       <div>
         <ul>
           <li>
-            <NavLink to={`/research-projects/${slug}`}>Overview</NavLink>
+            <NavLink to={`/research-projects/${slug}`}>
+              Marginalisation and Digital Society
+            </NavLink>
           </li>
           <li>
             <ul>
