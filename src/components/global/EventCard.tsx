@@ -1,25 +1,29 @@
-import "./EventCard.css";
-import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
-
-export function EventCard({
-  title,
-  date,
-  place,
-  slug,
-  description,
-  imgUrl,
-}: {
+type EventData = {
+  id: string;
   title: string;
   date: string;
   place: string;
   slug: string;
   description: string;
-  imgUrl?: string;
-}) {
-  const year = new Date(date).getFullYear();
-  const month = new Date(date).toLocaleString("default", { month: "long" });
-  const day = new Date(date).getDate();
+  image?: string;
+};
+
+type EventCardProps = {
+ eventData: EventData;
+};
+
+import "./EventCard.css";
+import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { resolveResourceImageUrl } from "../../utils/resolveResourceImageUrl";
+
+
+export function EventCard({ eventData }: EventCardProps) {
+  const path = `/events-and-resources/resource-library/${eventData.slug ?? eventData.id ?? ""}`;
+  const imageUrl = resolveResourceImageUrl(eventData.image);
+  const year = new Date(eventData.date).getFullYear();
+  const month = new Date(eventData.date).toLocaleString("default", { month: "long" });
+  const day = new Date(eventData.date).getDate();
   //   const formattedDate = `${day} ${month} ${year}`;
 
   const navigate = useNavigate();
@@ -29,7 +33,7 @@ export function EventCard({
     // Ignore clicks that happen on the link or anything inside it (icon, span, etc.)
     if (target?.closest("a")) return;
 
-    navigate(`${slug}`);
+    navigate(`${eventData.slug}`);
   };
 
 
@@ -40,15 +44,15 @@ export function EventCard({
           <div className="info">
             <div>
               <h3>
-                <NavLink to={`${slug}`}>{title}</NavLink>
+                <NavLink to={path}>{eventData.title}</NavLink>
               </h3>
               <div>
-                <p>{description}</p>
+                <p>{eventData.description}</p>
               </div>
             </div>
             <div>
               <div>
-                <p>Place: {place}</p>
+                <p>Place: {eventData.place}</p>
               </div>
             </div>
           </div>
@@ -59,7 +63,7 @@ export function EventCard({
             <div>{year}</div>
           </div>
         </div>
-          <img src={imgUrl} alt="" />
+          <img src={imageUrl} alt="" />
       </article>
     </li>
   );

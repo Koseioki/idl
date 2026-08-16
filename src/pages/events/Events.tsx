@@ -18,15 +18,10 @@ export function Events() {
       {/* Show upcoming events if they exist */}
       {upcomingEvents.length > 0 ? (
         <ul className="card-list">
-          {upcomingEvents.map((event) => (
+          {upcomingEvents.map((eventData) => (
             <EventCard
-              key={event.id}
-              title={event.title}
-              date={event.date}
-              place={event.place}
-              slug={event.slug}
-              description={event.description}
-              imgUrl={event.imageUrl}
+              key={eventData.id}
+              eventData={eventData}
             />
           ))}
         </ul>
@@ -37,15 +32,10 @@ export function Events() {
       <h2>Past Events</h2>
       {pastEvents.length > 0 ? (
         <ul className="card-list">
-          {pastEvents.map((event) => (
+          {pastEvents.map((eventData) => (
             <EventCard
-              key={event.id}
-              title={event.title}
-              date={event.date}
-              place={event.place}
-              slug={event.slug}
-              description={event.description}
-              imgUrl={event.imageUrl}
+              key={eventData.id}
+              eventData={eventData}
             />
           ))}
         </ul>

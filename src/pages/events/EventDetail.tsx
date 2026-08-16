@@ -6,9 +6,9 @@ import { useEffect, useState } from "react";
 
 export function EventDetail() {
   const { slug } = useParams();
-  const event = Events.find((ev) => ev.slug === slug || ev.id === slug);
-  const formattedDate = event?.date
-    ? new Date(event.date).toLocaleDateString([], {
+  const eventData = Events.find((ev) => ev.slug === slug || ev.id === slug);
+  const formattedDate = eventData?.date
+    ? new Date(eventData.date).toLocaleDateString([], {
         year: "numeric",
         month: "long",
         day: "numeric",
@@ -17,22 +17,22 @@ export function EventDetail() {
 
   const [Content, setContent] = useState<React.ComponentType | null>(null);
   useEffect(() => {
-      import(`../../data/events/${event?.slug}.mdx`).then((module) => {
+      import(`../../data/events/${eventData?.slug}.mdx`).then((module) => {
         setContent(() => module.default);
       });
 
-  }, [event]);
+  }, [eventData]);
 
   return (
     <main id="main-content" className="event-detail">
-      <H1>{event?.title}</H1>
+      <H1>{eventData?.title}</H1>
       <p>
         {formattedDate}
         {formattedDate ? ", at " : ""}
-        {event?.place}
+        {eventData?.place}
       </p>
 
-      <p>{event?.description}</p>
+      <p>{eventData?.description}</p>
 
       {Content && (
         <div style={{ marginTop: "2rem" }}>
