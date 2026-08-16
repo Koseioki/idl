@@ -15,6 +15,9 @@ import Experiment from '../../assets/drawings/experiment.svg';
 import Contact from '../../assets/drawings/contact.svg';
 import Research from '../../assets/drawings/research.svg';
 import Library from '../../assets/drawings/library.svg';
+import LowSignal from '../../assets/drawings/low-signal.svg';
+import Businessman from '../../assets/drawings/businessman.svg';
+
 import './Drawing.css';
 
 const svgMap = {
@@ -25,7 +28,9 @@ const svgMap = {
   Contact,
   Research,
   Share,
-  Library
+  Library,
+  LowSignal,
+  Businessman
 };
 
 const drawingAriaLabels = {
