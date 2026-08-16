@@ -17,23 +17,22 @@ export function EventDetail() {
 
   const [Content, setContent] = useState<React.ComponentType | null>(null);
   useEffect(() => {
-      import(`../../data/events/${eventData?.slug}.mdx`).then((module) => {
-        setContent(() => module.default);
-      });
-
+    import(`../../data/events/${eventData?.slug}.mdx`).then((module) => {
+      setContent(() => module.default);
+    });
   }, [eventData]);
-  
 
   return (
     <main id="main-content" className="event-detail">
       <H1>{eventData?.title}</H1>
-      <p>
-        {formattedDate}
-        {formattedDate ? ", at " : ""}
-        {eventData?.place}
-      </p>
-
       <p>{eventData?.description}</p>
+
+      <dl>
+        <dt>Date:</dt>
+        <dd>{formattedDate}</dd>
+        <dt>Place:</dt>
+        <dd>{eventData?.place}</dd>
+      </dl>
 
       {Content && (
         <div style={{ marginTop: "2rem" }}>
