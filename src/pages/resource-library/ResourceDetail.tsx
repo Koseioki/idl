@@ -91,7 +91,7 @@ export function ResourceDetail() {
             {resource?.source ? <dt>Source:</dt> : null}
             {resource?.source ? (
               <dd>
-                <a href={resource.source}>Open the source</a>
+                <a href={resource.source}>Open the resource</a>
               </dd>
             ) : null}
           </dl>

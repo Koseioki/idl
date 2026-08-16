@@ -7,11 +7,13 @@
     "authorShort": "Crenshaw",
     "year": 2015,
     "format": 6,
-    "category": [100,101,105],
+    "category": [100, 101, 105],
     "publisher": "The Washington Post",
     "source": "https://www.washingtonpost.com/news/in-theory/wp/2015/09/24/why-intersectionality-cant-wait/",
-    "image": "https://www.washingtonpost.com/news/in-theory/wp-content/uploads/sites/49/2015/09/SandraBland.jpg"
+    "image": "/src/assets/img/resources/why-intersectionality-cant-wait.jpg"
   },
+ 
+ 
   {
     "id": "48572098",
     "title": "Social marginalization",
@@ -24,7 +26,6 @@
     "category": 100,
     "publisher": "Humanities and Social Sciences Communications",
     "source": "https://doi.org/10.1057/s41599-024-04210-y",
-
     "image": "/src/assets/img/resources/social-marginalization.png"
   },
   {
@@ -39,7 +40,7 @@
     "format": 1,
     "category": [100, 101, 102, 104, 105],
     "publisher": "Routledge",
-    "image": "https://images.routledge.com/common/jackets/amazon/978081335/9780813350035.jpg",
+    "image": "/src/assets/img/resources/privilege-a-reader.jpg",
     "source": "https://www.routledge.com/Privilege-A-Reader/SKimmel-Ferber/p/book/9780813350035"
   },
   {
@@ -51,8 +52,8 @@
     "year": 2018,
     "format": 3,
     "category": 100,
-    "image": "https://i.ytimg.com/vi/O1islM0ytkE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCe7hYVhwOQcg28uMF72hQoTzP8jg",
-    "source": "https://www.youtube.com/watch?v=O1islM0ytkE"
+    "source": "https://www.youtube.com/watch?v=O1islM0ytkE",
+    "image": "/src/assets/img/resources/what-is-intersectionality.jpg"
   },
   {
     "id": "98765432",
@@ -64,7 +65,7 @@
     "format": 1,
     "category": [99, 102, 103],
     "publisher": "Djøf forlag",
-    "image": "https://imgcdn.saxo.com/_9788757455250",
+    "image": "/src/assets/img/resources/digital-inclusion.jpeg",
     "source": "https://djoefforlag.dk/products/digital-inclusion"
   },
   {
@@ -77,7 +78,7 @@
     "format": 1,
     "category": [99, 103],
     "publisher": "A Book Apart",
-    "image": "https://abookapart.com/cdn/shop/products/ABA-cover-18_aea67455-a1b9-486c-a817-fbbbbda3637d_112x@3x﹖v=1554390815.png",
+    "image": "/src/assets/img/resources/design-for-real-life.png",
     "source": "https://abookapart.com/products/design-for-real-life"
   },
   {
@@ -90,7 +91,7 @@
     "format": 3,
     "category": 103,
     "publisher": "BoysTownHospital",
-    "image": "https://i.ytimg.com/vi/KrOISXtCgVA/hqdefault_211866.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD2SBOfuU8npiZU05bofWXQQOZjPw",
+    "image": "/src/assets/img/resources/living-with-developmental-language-disorder.jpg",
     "source": "https://www.youtube.com/watch?v=KrOISXtCgVA",
     "note": "This video contains expressions that may suggest linguistic incompetence or stereotypes about people from a particular nation."
   },
@@ -104,7 +105,7 @@
     "format": 1,
     "category": 100,
     "publisher": "A Book Apart",
-    "image": "https://abookapart.com/cdn/shop/products/aba-cover-42_112x@3x﹖v=1660142571.png",
+    "image": "/src/assets/img/resources/inclusive-design-communities.png",
     "source": "https://abookapart.com/products/inclusive-design-communities"
   },
   {
@@ -117,7 +118,7 @@
     "format": 1,
     "category": [99, 103],
     "publisher": "A Book Apart",
-    "image": "https://abookapart.com/cdn/shop/products/aba-cover-37_112x@3x﹖v=1627955454.png",
+    "image": "/src/assets/img/resources/design-for-safety.png",
     "source": "https://abookapart.com/products/design-for-safety"
   },
 
@@ -131,7 +132,7 @@
     "year": 2016,
     "format": 3,
     "category": [100, 101, 105],
-    "image": "https://pi.tedcdn.com/r/s3.amazonaws.com/talkstar-photos/uploads/84ad9fe2-0fc4-4cea-bd42-95dd2c0dabae/KimberleCrenshaw_2016W-embed.jpg?cb=20160511&quality=63&u=&w=512",
+    "image": "/src/assets/img/resources/the-urgency-of-intersectionality.jpg",
     "source": "https://www.ted.com/talks/kimberle_crenshaw_the_urgency_of_intersectionality"
   },
   {
@@ -145,7 +146,7 @@
     "format": 1,
     "category": [99, 101, 105],
     "publisher": "W. W. Norton & Company",
-    "image": "https://cdn2.wwnorton.com/wwnproducts/TRADE/5/4/9780393356045/9780393356045_300.jpeg",
+    "image": "/src/assets/img/resources/technically-wrong.jpeg",
     "source": "https://wwnorton.com/books/Technically-Wrong/"
   },
   {
@@ -170,7 +171,7 @@
     "year": 2024,
     "format": 1,
     "category": [99, 103],
-    "image": "https://images.routledge.com/common/jackets/amazon/978103226/9781032263861.jpg",
+    "image": "/src/assets/img/resources/what-every-engineer-should-know-about-digital-accessibility.jpg",
     "source": "https://www.routledge.com/What-Every-Engineer-Should-Know-About-Digital-Accessibility/Horton-Sloan/p/book/9781032263861"
   },
   {
@@ -184,7 +185,7 @@
     "format": 1,
     "category": 103,
     "publisher": "Trauma-informed Design Society",
-    "image": "https://static.wixstatic.com/media/8fe619_2debcc60dc1b43a88d4182ec92cc15b2~mv2.png/v1/fill/w_600,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/8fe619_2debcc60dc1b43a88d4182ec92cc15b2~mv2.png",
+    "image": "/src/assets/img/resources/trauma-informed-design.png",
     "source": "https://www.tidsociety.com/product-page/trauma-informed-design"
   },
   {
@@ -198,7 +199,7 @@
     "format": 1,
     "category": 103,
     "publisher": "Prominence Publishing",
-    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1678962904i/123254411.jpg"
+    "image": "/src/assets/img/resources/the-inclusive-speaker.jpg"
   },
   {
     "id": "30058449",
@@ -211,7 +212,7 @@
     "publisher": "Morgan Kaufmann",
     "format": 1,
     "category": [99, 103],
-    "image": "https://ars.els-cdn.com/content/image/3-s2.0-C20150014514-cov200h.gif"
+    "image": "/src/assets/img/resources/designing-user-interfaces-for-an-aging-population.jpg"
   },
   {
     "id": "34567893",
@@ -233,7 +234,7 @@
     "year": 2025,
     "format": 3,
     "category": [99, 101, 102],
-    "image": "https://i.ytimg.com/vi/0f3RMYTCvMU/hqdefault_29866.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLClZYG7qWzOE36Rqs1ybaEqiIt1Iw",
+    "image": "/src/assets/img/resources/why-the-internet-hates-my-surname.jpg",
     "source": "https://www.youtube.com/watch?v=0f3RMYTCvMU",
     "note": "This video does not include captions or audio description, but automated captions are available."
   },
@@ -290,9 +291,9 @@
     "format": 6,
     "category": [99, 103],
     "source": "https://www.nrk.no/ytring/ufrivillig-logget-ut-1.15863031",
-    "image": "https://gfx.nrk.no/iAEMbaAiN3xiPBPsOse8xgA1JIeEyzVTENWopTZ5Aujw.jpg"
-    },
-    {
+    "image": "/src/assets/img/resources/involuntarily-logged-out.jpg"
+  },
+  {
     "id": "90123457",
     "title": "Closed",
     "slug": "closed",
@@ -305,147 +306,147 @@
     "format": 6,
     "category": [99, 103],
     "source": "https://www.nrk.no/ytring/stengt-ute-1.15522823",
-    "image": "https://gfx.nrk.no/MU96X91zLDDhGFkNtRWpSwuT5KxeeBeEIbExfQERr5mQ.jpg"
-    },
-    {
-      "id": "22203342",
-      "title": "Neurodiversity Design System",
-      "slug": "neurodiversity-design-system",
-      "author": "Will Soward",
-      "authorShort": "Soward",
-      "format": 5,
-      "category": [99, 103],
-      "source": "https://neurodiversity.design/",
-      "image": "/src/assets/img/resources/neurodiversity-design-system.png"
-    },
-    {
-      "id": "33304453",
-      "title": "World Social Report 2025",
-      "slug": "world-social-report-2025",
-      "subtitle": "A New Policy Consensus to Accelerate Social Progress",
-      "author": "United Nations Department of Economic and Social Affairs (UN DESA)",
-      "authorShort": "UN DESA",
-      "year": 2025,
-      "format": 7,
-      "category": [102, 104],
-      "publisher": "United Nations",
-      "source": "https://social.desa.un.org/issues/world-social-report",
-      "image": "https://social.desa.un.org//sites/default/files/styles/max_width_400px_ri/public/2025-04/WSR2025-Cover-sm.jpg.jpg?itok=XeEJM61H"
-    },
-    {
-      "id": "00048338",
-      "title": "Artificial intelligence colonialism",
-      "slug": "artificial-intelligence-colonialism",
-      "subtitle": "environmental damage, labor exploitation, and human rights crises in the global south",
-      "author": "Salvador Santino F. Regilme",
-      "authorShort": "Regilme",
-      "year": 2024,
-      "format": 4,
-      "category": [102, 104],
-      "publisher": "Johns Hopkins University Press",
-      "source": "https://www.researchgate.net/publication/388814014_Artificial_Intelligence_Colonialism_Environmental_Damage_Labor_Exploitation_and_Human_Rights_Crises_in_the_Global_South",
-      "image": "/src/assets/img/resources/artificial-intelligence-colonialism.png"
-    },
-    {
-      "id": "10000001",
-      "title": "Local Geographies of Digital Inequality",
-      "slug": "local-geographies-of-digital-inequality",
-      "author": "Grant Blank, Mark Graham, and Claudio Calvino",
-      "authorShort": "Blank, Graham, and Calvino",
-      "year": 2018,
-      "format": 4,
-      "category": [99, 102],
-      "source": "https://journals.sagepub.com/doi/10.1177/0894439317693332",
-      "image": "/src/assets/img/resources/local-geographies-of-digital-inequality.png"
-    },
-    {
-      "id": "10000002",
-      "title": "Dirt Tracks off the Superhighway",
-      "subtitle":"How COVID Widened the Digital Gap for Remote First Nations communities in Australia",
-      "slug": "dirt-tracks-off-the-superhighway",
-      "author": "Daniel Featherstone",
-      "authorShort": "Featherstone",
-      "year": 2024,
-      "format": 4,
-      "category": [99, 102],
-      "source": "https://link.springer.com/chapter/10.1007/978-3-031-28930-9_2",
-      "image": "/src/assets/img/resources/dirt-tracks-off-the-superhighway.png"
-    },
-    {
-      "id": "10000003",
-      "title": "Digital Inclusion in Rural Areas",
-      "subtitle": "A Qualitative Exploration of Challenges Faced by People From Isolated Communities",
-      "slug": "digital-inclusion-in-rural-areas",
-      "author": "Teresa Correa, Isabel Pavez",
-      "authorShort": "Correa and Pavez",
-      "year": 2024,
-      "format": 4,
-      "category": [99, 102],
-      "source": "https://academic.oup.com/jcmc/article/21/3/247/4065369",
-      "image": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jcmc/Issue/21/3/5/m_cover.gif?Expires=1783364842&Signature=nnpoyX5IYyPHD-iC~PpU~txueI79NANWDPqBm9QtXNCgss0rrL1qRX2ZHBC690x~xmuYeNDcwT7S7nXy5bc7iPpcMq4HzcIrFih5sTmVH4g9uIdhd-oeuInispDhM2NmUNZmgX0pynyZ7En7dCVV0qoKAd7q6Useyu~xok~nz-8Pkxc44jdPs07vJTJq7ce-1agg71nALCdMe~JvnQqVftbu2tP6xDYJBmTrgZRmR0O9CVHFDtOFa4mluJyaYZJlxK1T6tkXEwrqr5mGWShhJEY197Hn~qZu9ZXOvZPn-HotTKvVVZygCRlGUUQBtO3E6AM~M8kvLK2Kr8M3NXeS9A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
-    },
-    {
-      "id": "10000004",
-      "title": "Connected, Creative and Cultural Communities",
-      "subtitle": "Developing an Integrated Approach to Policy and Evaluation for  Remote Australian Indigenous Media and Communications",
-      "slug": "connected-creative-and-cultural-communities",
-      "author": "Daniel Featherstone",
-      "authorShort": "Featherstone",
-      "year": 2015,
-      "format": 7,
-      "category": [99, 102],
-      "source": "https://researchportal.murdoch.edu.au/esploro/outputs/doctoral/Connected-Creative-and-Cultural-Communities-Develo**/991005542483607891",
-      "image": "/src/assets/img/resources/connected-creative-and-cultural-communities.png"
-    },
-    {
-      "id": "10000005",
-      "title": "Ronnie is the only person in his town with internet. The digital divide is to blame",
-      "slug": "ronnie-is-the-only-person-in-his-town-with-internet",
-      "author": "ABC Australia",
-      "authorShort": "ABC Australia",
-      "year": 2022,
-      "format": 3,
-      "category": [99, 102],
-      "source": "https://www.youtube.com/watch?v=uYQ503GU0YE",
-      "image": "https://i.ytimg.com/vi/uYQ503GU0YE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCNgBUXNh5LPrIUmzoqvB1E7Nwemg",
-      "note": "This video does not include captions or audio description, but automated captions are available."
-    },
-    {
-      "id": "10000006",
-      "title": "The Digital Divide",
-      "slug": "the-digital-divide",
-      "author": "Jan van Dijk",
-      "authorShort": "van Dijk",
-      "publisher": "Polity",
-      "year": 2020,
-      "format": 1,
-      "category": [99, 102],
-      "source": "https://www.politybooks.com/bookdetail?book_slug=the-digital-divide--9781509534449",
-      "image": "https://www.wiley.com/storefront-pdp-assets/_next/image?url=https%3A%2F%2Fmedia.wiley.com%2Fproduct_data%2FcoverImage300%2F4X%2F15095344%2F150953444X.jpg&w=640&q=75"
-    },
-    {
-      "id": "10000007",
-      "title": "Remote rural home based businesses and digital inequalities",
-      "subtitle": "Understanding needs and expectations in a digitally underserved community",
-      "slug": "remote-rural-home-based-businesses-and-digital-inequalities",
-      "author": "Lorna Philip, Fiona Williams",
-      "authorShort": "Philip and Williams",
-      "year": 2019,
-      "format": 4,
-      "category": [99, 102],
-      "source": "https://www.sciencedirect.com/science/article/pii/S0743016717312615",
-      "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0743016719X00054-cov200h.gif"
-    },
-    {
-      "id": "10000008",
-      "title": "Rural development in the digital age",
-      "subtitle": "A systematic review of the literature on digital inclusion in rural areas",
-      "author": "Salemink, Koen; Strijker, Derk; Bosworth, Gary",
-      "authorShort": "Salemink, Strijker, and Bosworth",
-      "year": 2017,
-      "format": 4,
-      "category": [99, 102],
-      "source": "https://www.sciencedirect.com/science/article/abs/pii/S0743016715300176?via%3Dihub",
-      "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0743016719X00054-cov200h.gif"
-    }
+    "image": "/src/assets/img/resources/closed.jpg"
+  },
+  {
+    "id": "22203342",
+    "title": "Neurodiversity Design System",
+    "slug": "neurodiversity-design-system",
+    "author": "Will Soward",
+    "authorShort": "Soward",
+    "format": 5,
+    "category": [99, 103],
+    "source": "https://neurodiversity.design/",
+    "image": "/src/assets/img/resources/neurodiversity-design-system.png"
+  },
+  {
+    "id": "33304453",
+    "title": "World Social Report 2025",
+    "slug": "world-social-report-2025",
+    "subtitle": "A New Policy Consensus to Accelerate Social Progress",
+    "author": "United Nations Department of Economic and Social Affairs (UN DESA)",
+    "authorShort": "UN DESA",
+    "year": 2025,
+    "format": 7,
+    "category": [102, 104],
+    "publisher": "United Nations",
+    "source": "https://social.desa.un.org/issues/world-social-report",
+    "image": "/src/assets/img/resources/world-social-report-2025.jpg"
+  },
+  {
+    "id": "00048338",
+    "title": "Artificial intelligence colonialism",
+    "slug": "artificial-intelligence-colonialism",
+    "subtitle": "environmental damage, labor exploitation, and human rights crises in the global south",
+    "author": "Salvador Santino F. Regilme",
+    "authorShort": "Regilme",
+    "year": 2024,
+    "format": 4,
+    "category": [102, 104],
+    "publisher": "Johns Hopkins University Press",
+    "source": "https://www.researchgate.net/publication/388814014_Artificial_Intelligence_Colonialism_Environmental_Damage_Labor_Exploitation_and_Human_Rights_Crises_in_the_Global_South",
+    "image": "/src/assets/img/resources/artificial-intelligence-colonialism.png"
+  },
+  {
+    "id": "10000001",
+    "title": "Local Geographies of Digital Inequality",
+    "slug": "local-geographies-of-digital-inequality",
+    "author": "Grant Blank, Mark Graham, and Claudio Calvino",
+    "authorShort": "Blank, Graham, and Calvino",
+    "year": 2018,
+    "format": 4,
+    "category": [99, 102],
+    "source": "https://journals.sagepub.com/doi/10.1177/0894439317693332",
+    "image": "/src/assets/img/resources/local-geographies-of-digital-inequality.png"
+  },
+  {
+    "id": "10000002",
+    "title": "Dirt Tracks off the Superhighway",
+    "subtitle": "How COVID Widened the Digital Gap for Remote First Nations communities in Australia",
+    "slug": "dirt-tracks-off-the-superhighway",
+    "author": "Daniel Featherstone",
+    "authorShort": "Featherstone",
+    "year": 2024,
+    "format": 4,
+    "category": [99, 102],
+    "source": "https://link.springer.com/chapter/10.1007/978-3-031-28930-9_2",
+    "image": "/src/assets/img/resources/dirt-tracks-off-the-superhighway.png"
+  },
+  {
+    "id": "10000003",
+    "title": "Digital Inclusion in Rural Areas",
+    "subtitle": "A Qualitative Exploration of Challenges Faced by People From Isolated Communities",
+    "slug": "digital-inclusion-in-rural-areas",
+    "author": "Teresa Correa, Isabel Pavez",
+    "authorShort": "Correa and Pavez",
+    "year": 2024,
+    "format": 4,
+    "category": [99, 102],
+    "source": "https://academic.oup.com/jcmc/article/21/3/247/4065369",
+    "image": "/src/assets/img/resources/digital-inclusion-in-rural-areas.jpg"
+  },
+  {
+    "id": "10000004",
+    "title": "Connected, Creative and Cultural Communities",
+    "subtitle": "Developing an Integrated Approach to Policy and Evaluation for  Remote Australian Indigenous Media and Communications",
+    "slug": "connected-creative-and-cultural-communities",
+    "author": "Daniel Featherstone",
+    "authorShort": "Featherstone",
+    "year": 2015,
+    "format": 7,
+    "category": [99, 102],
+    "source": "https://researchportal.murdoch.edu.au/esploro/outputs/doctoral/Connected-Creative-and-Cultural-Communities-Develo**/991005542483607891",
+    "image": "/src/assets/img/resources/connected-creative-and-cultural-communities.png"
+  },
+  {
+    "id": "10000005",
+    "title": "Ronnie is the only person in his town with internet. The digital divide is to blame",
+    "slug": "ronnie-is-the-only-person-in-his-town-with-internet",
+    "author": "ABC Australia",
+    "authorShort": "ABC Australia",
+    "year": 2022,
+    "format": 3,
+    "category": [99, 102],
+    "source": "https://www.youtube.com/watch?v=uYQ503GU0YE",
+    "image": "/src/assets/img/resources/ronnie-is-the-only-person-in-his-town-with-internet.jpg",
+    "note": "This video does not include captions or audio description, but automated captions are available."
+  },
+  {
+    "id": "10000006",
+    "title": "The Digital Divide",
+    "slug": "the-digital-divide",
+    "author": "Jan van Dijk",
+    "authorShort": "van Dijk",
+    "publisher": "Polity",
+    "year": 2020,
+    "format": 1,
+    "category": [99, 102],
+    "source": "https://www.politybooks.com/bookdetail?book_slug=the-digital-divide--9781509534449",
+    "image": "/src/assets/img/resources/the-digital-divide.jpeg"
+  },
+  {
+    "id": "10000007",
+    "title": "Remote rural home based businesses and digital inequalities",
+    "subtitle": "Understanding needs and expectations in a digitally underserved community",
+    "slug": "remote-rural-home-based-businesses-and-digital-inequalities",
+    "author": "Lorna Philip, Fiona Williams",
+    "authorShort": "Philip and Williams",
+    "year": 2019,
+    "format": 4,
+    "category": [99, 102],
+    "source": "https://www.sciencedirect.com/science/article/pii/S0743016717312615",
+    "image": "/src/assets/img/resources/remote-rural-home-based-businesses-and-digital-inequalities.jpg"
+  },
+  {
+    "id": "10000008",
+    "title": "Rural development in the digital age",
+    "subtitle": "A systematic review of the literature on digital inclusion in rural areas",
+    "author": "Salemink, Koen; Strijker, Derk; Bosworth, Gary",
+    "authorShort": "Salemink, Strijker, and Bosworth",
+    "year": 2017,
+    "format": 4,
+    "category": [99, 102],
+    "source": "https://www.sciencedirect.com/science/article/abs/pii/S0743016715300176?via%3Dihub",
+    "image": "/src/assets/img/resources/remote-rural-home-based-businesses-and-digital-inequalities.jpg"
+  }
 ]
