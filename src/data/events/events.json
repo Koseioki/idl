@@ -6,7 +6,7 @@
         "date": "2025-11-12",
         "place": "Business Academy Aarhus, Denmark",
         "description": "We held an introduction class on accessibility for multimedia design students at Business Academy Aarhus.",
-        "imageUrl": "/src/assets/img/events/accessibility-makes-us-better-designers-developers.webp"
+        "image": "/src/assets/img/events/accessibility-makes-us-better-designers-developers.webp"
     },
     {
         "id": "34552534",
@@ -15,6 +15,6 @@
         "date": "2026-6-23",
         "place": "adesso SE, Dortmund, Germany (online, private event)",
         "description": "Intersectionality in the digital society — what does it mean, why is it important, and how do we begin to incorporate it?",
-        "imageUrl": "/src/assets/img/events/adesso.webp"
+        "image": "/src/assets/img/events/adesso.webp"
     }
 ]

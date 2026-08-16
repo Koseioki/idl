@@ -22,6 +22,7 @@ export function EventDetail() {
       });
 
   }, [eventData]);
+  
 
   return (
     <main id="main-content" className="event-detail">

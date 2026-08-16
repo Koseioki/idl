@@ -1,10 +1,10 @@
 type EventData = {
-  id: string;
-  title: string;
-  date: string;
-  place: string;
-  slug: string;
-  description: string;
+  id?: string;
+  title?: string;
+  date?: string;
+  place?: string;
+  slug?: string;
+  description?: string;
   image?: string;
 };
 
@@ -19,11 +19,11 @@ import { resolveResourceImageUrl } from "../../utils/resolveResourceImageUrl";
 
 
 export function EventCard({ eventData }: EventCardProps) {
-  const path = `/events-and-resources/resource-library/${eventData.slug ?? eventData.id ?? ""}`;
+  const path = `/events-and-resources/events/${eventData.slug ?? eventData.id ?? ""}`;
   const imageUrl = resolveResourceImageUrl(eventData.image);
-  const year = new Date(eventData.date).getFullYear();
-  const month = new Date(eventData.date).toLocaleString("default", { month: "long" });
-  const day = new Date(eventData.date).getDate();
+  const year = new Date(eventData.date ?? "").getFullYear();
+  const month = new Date(eventData.date ?? "").toLocaleString("default", { month: "long" });
+  const day = new Date(eventData.date ?? "").getDate();
   //   const formattedDate = `${day} ${month} ${year}`;
 
   const navigate = useNavigate();
@@ -33,7 +33,7 @@ export function EventCard({ eventData }: EventCardProps) {
     // Ignore clicks that happen on the link or anything inside it (icon, span, etc.)
     if (target?.closest("a")) return;
 
-    navigate(`${eventData.slug}`);
+    navigate(path);
   };
 
 
@@ -63,7 +63,7 @@ export function EventCard({ eventData }: EventCardProps) {
             <div>{year}</div>
           </div>
         </div>
-          <img src={imageUrl} alt="" />
+        <div>{imageUrl ? <img src={imageUrl} alt="" /> : null}</div>
       </article>
     </li>
   );
